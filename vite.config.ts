@@ -15,6 +15,7 @@ export default defineConfig({
     viteCompression(),
   ],
   server: {
+    port: 8080,
     proxy: {
       '/v1': {
         target: 'http://129.211.124.109:11403',
