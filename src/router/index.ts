@@ -10,16 +10,6 @@ const routes: RouteRecordRaw[] = [
     name: 'home',
     component: () => import('@/views/home/HomeIndex.vue'),
   },
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import('@/views/login/LoginIndex.vue'),
-  },
-  {
-    path: '/test',
-    name: 'test',
-    component: () => import('@/views/test/TestIndex.vue'),
-  },
 ];
 const router = createRouter({
   history: createWebHistory(),
